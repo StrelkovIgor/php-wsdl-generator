@@ -1,0 +1,32 @@
+{
+    "name": "koreychenko/php-wsdl-generator",
+    "description": "Yet another PHP WSDL generator",
+    "keywords": [
+        "php",
+        "wsdl",
+        "1C",
+        "SOAP"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Max koreychenko",
+            "email": "koreychenko@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "support": {
+        "email": "koreychenko@gmail.com",
+        "docs": "https://github.com/koreychenko/php-wsdl-generator",
+        "source": "https://github.com/koreychenko/php-wsdl-generator"
+    },
+    "autoload": {
+        "psr-4": {
+            "Koreychenko\\PWG\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
+
