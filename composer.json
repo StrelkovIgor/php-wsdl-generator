@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Koreychenko\\PWG\\": "src/"
+            "WsdlGenerator\\": "src/"
         }
     },
     "minimum-stability": "stable"

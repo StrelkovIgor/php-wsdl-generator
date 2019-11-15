@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Koreychenko\PWG;
+namespace WsdlGenerator;
 
 trait AnnotationParsingTrait
 {
