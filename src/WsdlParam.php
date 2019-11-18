@@ -93,7 +93,7 @@ class WsdlParam
 
         $reflectionClass = new ReflectionClass($this->getType());
 
-        $complexTypeName = $this->getComplexTypeName($reflectionClass->getShortName());
+        $complexTypeName = $reflectionClass->getShortName();
 
         $this->wsdlGeneratorService->addExtraTypes($complexTypeName, '');
 
