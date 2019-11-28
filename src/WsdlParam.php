@@ -15,6 +15,7 @@ class WsdlParam
         'string',
         'int',
         'dateTime',
+        'date',
     ];
 
     private $type;
