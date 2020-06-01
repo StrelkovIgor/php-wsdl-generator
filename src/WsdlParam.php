@@ -14,6 +14,7 @@ class WsdlParam
         'boolean',
         'string',
         'int',
+        'double',
         'dateTime',
         'date',
     ];
