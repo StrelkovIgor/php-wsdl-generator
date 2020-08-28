@@ -44,7 +44,7 @@ class WsdlAnnotationParser
     private function parseAnnotationParameterString($type)
     {
         $matches = [];
-        $pattern = '/\@' . $type . '\s+(\S+)\s+\$(\S+)(\s+minOccurs="(\d+)"\s+maxOccurs="(\S+)")?$/im';
+        $pattern = '/\@' . $type . '\s+(\S+)\s+\$(\S+)(\s+minOccurs="(\d+)"\s+maxOccurs="(\S+)")?/im';
         preg_match_all($pattern, $this->annotation, $matches);
 
         return $matches;
